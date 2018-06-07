@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'AppLearn.apps.ApplearnConfig'
+    'AppLearn.apps.ApplearnConfig',
+    'AppBoard.apps.AppboardConfig',
+    'polls.apps.PollsConfig',
 ]
 
 MIDDLEWARE = [
